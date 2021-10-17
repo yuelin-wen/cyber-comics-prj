@@ -1,0 +1,22 @@
+<%- include('Layout/head.ejs') %>
+    <main>
+        <h2><%= data.title%></h2>
+            <p>Date created: <%= data.year%>-<%= data.month%>-<%= data.day%></p>
+                        <p>View count: <%= count%></p>
+                            <div class="buttons">
+                                <a href="/<%= goPrev(data.num)%>"><button>Prev</button></a>
+                                <a href="/<%= goRandom()%>"><button>Random</button></a>
+                                <a href="/<%= goNext(data.num)%>"><button>Next</button></a>
+                            </div>
+                            <img src="<%= data.img%>" alt="<%= data.alt%>">
+                                <div class="transcript">
+                                    <% if (transcript !="" ) { %>
+                                        <h3>Transcript</h3>
+                                        <% for(let words of transcript) { %>
+                                            <p><%= words%></p>
+                                                <% } %>
+                                                    <% }%>
+                                                    </div>
+
+                                                </main>
+                                                <%- include('Layout/foot.ejs')%>
