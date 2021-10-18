@@ -53,7 +53,7 @@ router.get('/:id', async (req, res) => {
         return res.render('404')
     }
     else {
-        let transcript
+        let data, transcript
         try {
             let response = await axios.get(`https://xkcd.com/${req.params.id}/info.0.json`)
             data = response.data
