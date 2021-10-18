@@ -23,7 +23,7 @@ Bonus:\
 ✓ A random button that goes to a random comic strip\
 ✓ Make the site responsive\
 ✓ Each comic page has a counter that displays the amount of times this specific comic strip has been
-viewed on your site\
+viewed on your site
 
 ## Preview
 ![image](https://user-images.githubusercontent.com/70301387/137659893-be1adaf7-8d9b-4f70-91af-66596ca08550.png)
