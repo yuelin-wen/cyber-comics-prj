@@ -26,7 +26,7 @@ Bonus:\
 viewed on your site\
 
 ## Preview
-![Screenshot (196)](https://user-images.githubusercontent.com/70301387/137638960-d8a45c4d-c23f-4d5e-970e-1d4dd2eb540e.png)
+![image](https://user-images.githubusercontent.com/70301387/137659893-be1adaf7-8d9b-4f70-91af-66596ca08550.png)
 
 ## License
 [MIT]
