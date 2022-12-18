@@ -15,7 +15,7 @@ const adminData = require('./modules/admin.js');
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 //css
-app.use('/public', express.static('public/'));
+app.use('/public', express.static('public'));
 
 //routes
 app.use(adminData.routes);
