@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "cyber-comics-prj",
+    "builds": [
+       { "src": "server.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/server.js" }
+    ]
+ }
