@@ -2,7 +2,15 @@
 
 Cyber City Comics is a coding case study that I was given. I built this web page by using EJS, JavaScript and vanilla CSS. And this website is host by Heroku.
 
-Web page link: https://cyber-city-comics-web.herokuapp.com/2562
+## Project setup
+```
+npm install
+```
+
+### Compiles and run
+```
+node server.js
+```
 
 ## Objective
 Create a web server hosted on Heroku that serves web pages that display xkcd web comic strips.
